@@ -86,9 +86,6 @@ function MainItem({ title, src, descript, front, back, takeaway, href, webhref }
                 <div style={{ display: "flex" }}><Tech>Back-end</Tech><Techs>{back}</Techs></div>
                 <Desc>{descript}</Desc>
                 <Take>{takeaway}</Take>
-                {
-                    //(hosting) ? <A href={hosting}><Icon alt="" src="img/blog.png" />hosting page 보러가기</A> : null
-                }
             </div>
             <WebLink>
                 {
