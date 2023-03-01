@@ -1,12 +1,9 @@
-import ProjectItem from "../component/ProjectItem";
+import MainItem from "../component/MainItem";
 import { Box } from "../styled/Pages";
 
 function Profile() {
     return (
         <Box>
-            정보작성 about me
-            <ProjectItem />
-            <ProjectItem />
         </Box>
     );
 }

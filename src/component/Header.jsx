@@ -15,13 +15,36 @@ const NameTag = styled.div`
 const Info = styled.div`
     background-color:aliceblue;
     display:inline-block;
-    min-width:300px;
+    min-width:280px;
     height:160px;
     padding:15px;
     font-weight:bold;
     font-size:1.1rem;
     color:grey;
     margin-top:10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+`
+
+const Span = styled.span`
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1.2rem;
+`
+
+const Img = styled.img`
+    width: 30px;
+    vertical-align: middle;
+    margin-right:5px;
+`
+const TreeImg = styled.img`
+    height: 160px;
+    float: left;
+    margin-right: 25px;
+`
+
+const A = styled.a`
+    text-decoration-line:none;
+    color:grey;
 `
 
 const TabMenu = styled.div`
@@ -33,19 +56,8 @@ const TabMenu = styled.div`
     text-align: center;
     cursor:pointer;
     font-weight:800;
-    font-size:1.3rem;
+    font-size:1.4rem;
 `;
-
-const Img = styled.img`
-    width: 30px;
-    vertical-align: middle;
-    margin-right:5px;
-`
-
-const A = styled.a`
-    text-decoration-line:none;
-    color:grey;
-`
 
 function Header() {
     //탭메뉴 작성(project/info)
@@ -56,10 +68,10 @@ function Header() {
         const pages = ["main", "sub", "profile"];
         const noPages = pages.filter((e) => e !== click);
         document.getElementById(click).style.backgroundColor = "aliceblue";
-        document.getElementById(click).style.color = "grey";
+        document.getElementById(click).style.color = "black";
         noPages.map((e) => {
             document.getElementById(e).style.backgroundColor = "lightgrey";
-            document.getElementById(e).style.color = "black";
+            document.getElementById(e).style.color = "grey";
             return null;
         });
     }, [click]);
@@ -82,15 +94,13 @@ function Header() {
     return (
         <div style={{ backgroundColor: "#199831" }}>
             <NameTag>
-                <span style={{ color: "white", fontWeight: 900 }}>⚡Junior Frontend Developer, LEE KYUNG YEON⚡</span>
+                <Span>⚡JUNIOR FRONT-END DEVELOPER, LEE KYUNG YEON⚡</Span>
                 <Info>
-                    <img alt="" src="img/tree.png" style={{ height: "160px", float: "left", marginRight: "30px" }} />
-                    <div>
-                        <div style={{ marginTop: "10px" }}>
-                            <A target="blank" href="https://github.com/kylee31"><Img alt="" src="img/github.png" />github</A><br /><br />
-                            <A target="blank" href="https://velog.io/@kylee31"><Img alt="" src="img/blog.png" />velog</A><br /><br />
-                            <A target="blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/youtube.png" />youtube</A>
-                        </div>
+                    <TreeImg alt="" src="img/tree.png" />
+                    <div style={{ marginTop: "10px" }}>
+                        <A target="blank" href="https://github.com/kylee31"><Img alt="" src="img/github.png" />github</A><br /><br />
+                        <A target="blank" href="https://velog.io/@kylee31"><Img alt="" src="img/blog.png" />velog</A><br /><br />
+                        <A target="blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/youtube.png" />youtube</A>
                     </div>
                 </Info>
             </NameTag>

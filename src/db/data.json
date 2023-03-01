@@ -1,6 +1,32 @@
 {
     "projects":[
-        {},
-        {}
+        {
+            "title":"🎬 영화일기(Movie Diary)",
+            "src":"img/1.png",
+            "descript":"React 프로젝트입니다. 그림일기 형식의 영화 감상문.",
+            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "back":["node.js"],
+            "takeaway":"CRUD를 모두 구현한 개인 프로젝트. 헤로쿠에 배포 gh-pages로 변경. SPA, localstorage에 데이터 저장, 이미지 화질 개선, 저장 용량 고려, 이미지 저장 가능",
+            "href":"https://github.com/kylee31/movie_diary",
+            "webhref":"https://kylee31.github.io/movie_diary/#/"
+        },
+        {
+            "title":"📚 북마크(Book Mark)",
+            "src":"img/2.png",
+            "descript":"React 프로젝트입니다.",
+            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "back":["node.js"],
+            "takeaway":"json-server를 사용하여 back-end 대신 연습",
+            "href":"https://github.com/kylee31/book_mark"
+        },
+        {
+            "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
+            "src":"img/3.png",
+            "descript":"",
+            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "back":["node.js"],
+            "takeaway":"",
+            "href":"https://github.com/kylee31/web-portfolio"
+        }
     ]
 }
