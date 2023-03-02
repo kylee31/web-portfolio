@@ -19,7 +19,7 @@ function SubProject() {
             <Items>
                 {
                     data.subprojects.map((item, index) => {
-                        return <SubItem key={index} src={item.src} title={item.title} href={item.href} youtube={item.youtube} color={item.color} languages={item.languages} descript={item.descript} />
+                        return <SubItem key={index} src={item.src} title={item.title} date={item.date} href={item.href} youtube={item.youtube} color={item.color} languages={item.languages} descript={item.descript} />
                     })
                 }
             </Items>

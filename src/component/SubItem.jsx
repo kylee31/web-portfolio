@@ -24,6 +24,12 @@ const Title = styled.span`
     font-weight:800;
     font-size:1.2rem;
 `
+const Date = styled.span`
+    font-size:0.9rem;
+    margin-left:10px;
+    font-weight:bold;
+    color:#666666;
+`
 const Img = styled.img`
     width:300px;
     height:150px;
@@ -57,7 +63,7 @@ const A = styled.a`
     margin-top:5px;
 
 `
-function SubItem({ src, title, href, youtube, color, languages, descript }) {
+function SubItem({ src, title, date, href, youtube, color, languages, descript }) {
 
     //img
     //title, date, languages, descript
@@ -72,7 +78,7 @@ function SubItem({ src, title, href, youtube, color, languages, descript }) {
                 <A href={href}><Icon alt="" src="img/github2.png" />github code 보기</A>
             </Item>
             <div style={{ display: "flex", flexDirection: "column", minWidth: "450px", maxWidth: "690px" }}>
-                <Title>{title}</Title>
+                <span><Title>{title}</Title><Date>({date})</Date></span>
                 <Tech color={color}>{languages}</Tech>
                 <div>{descript}</div>
             </div>

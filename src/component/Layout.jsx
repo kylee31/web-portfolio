@@ -11,7 +11,7 @@ const Container = styled.div`
 
 function Layout({ children }) {
     return (
-        <>
+        <div style={{ minWidth: "550px" }}>
             <header>
                 <Header />
             </header>
@@ -20,7 +20,7 @@ function Layout({ children }) {
                     {children}
                 </Container>
             </main>
-        </>
+        </div>
     );
 }
 
