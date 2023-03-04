@@ -5,7 +5,12 @@ import data from "../db/data.json";
 const Pic = styled.img`
     width: 200px;
     height: 250px;
-    margin-right: 50px; 
+    margin: 0 20px;
+`
+
+const Content = styled.div`
+    max-width: 600px;
+    margin: 0 20px;
 `
 
 const Tech = styled.div`
@@ -15,7 +20,7 @@ const Tech = styled.div`
 
 const Pro = styled.div`
     display:flex;
-    align-items:center;
+    align-item:center;
     justify-content:space-around;
     flex-wrap:wrap; 
     margin: 70px 100px;
@@ -33,24 +38,28 @@ const Item = styled.div`
     margin-bottom:50px;
 `
 
+const Font = styled.span`
+    font-weight: bold;
+    color: ${props => props.color};
+    font-size: 1.1rem;
+`
+
 function Profile() {
     return (
         <Box>
             <div>
                 <Pro>
                     <Pic alt="" src="img/pic.jpg" />
-                    <div style={{ maxWidth: "600px" }}>
-                        <h1>이경연</h1> 1998년 3월 10일<br />
-                        <hr />
+                    <Content>
+                        <h1>이경연</h1> skyvip3031@naver.com<br /><hr />
                         국회의원은 법률이 정하는 직을 겸할 수 없다. 헌법재판소의 조직과 운영 기타 필요한 사항은 법률로 정한다.
                         국가는 사회보장·사회복지의 증진에 노력할 의무를 진다.
                         <br /><br />
-                        GTQ 2급 2017년<br />
-                        정보처리기사 2022년
-                    </div>
+                        <Font>✅ GTQ 2급 2017년<br />✅ 정보처리기사 2022년</Font>
+                    </Content>
                 </Pro>
                 <Dev>
-                    Front<br /><hr />
+                    <Font color="#4fbb00">Front</Font><br /><hr />
                     <Item>
                         {
                             data.front.map((item) => {
@@ -65,7 +74,7 @@ function Profile() {
                     </Item>
                 </Dev>
                 <Dev>
-                    Back<br /><hr />
+                    <Font color="#4fbb00">Back</Font><br /><hr />
                     <Item >
                         {
                             data.back.map((item) => {
