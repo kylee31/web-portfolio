@@ -11,15 +11,12 @@ const Items = styled.div`
 `;
 
 function SubProject() {
-
-    //storage / javascript 연습 파일들 / movie app, todolist, word list, mini blog / 로그인 연습(메인 프로젝트?) / 게임프로그래밍
-
     return (
         <Box>
             <Items>
                 {
                     data.subprojects.map((item, index) => {
-                        return <SubItem key={index} src={item.src} title={item.title} date={item.date} href={item.href} youtube={item.youtube} color={item.color} languages={item.languages} descript={item.descript} />
+                        return <SubItem key={index} src={item.src} title={item.title} date={item.date} webhref={item.webhref} href={item.href} youtube={item.youtube} color={item.color} languages={item.languages} descript={item.descript} />
                     })
                 }
             </Items>

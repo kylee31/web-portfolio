@@ -2,7 +2,7 @@
     "projects":[
         {
             "title":"🎬 영화일기(Movie Diary)",
-            "src":"img/1.png",
+            "src":"img/main/1.png",
             "descript":"React 프로젝트입니다. 그림일기 형식의 영화 감상문.",
             "front":["Javascript, styled-component, CSS3, HTML5, React"],
             "back":["node.js"],
@@ -12,7 +12,7 @@
         },
         {
             "title":"📚 북마크(Book Mark)",
-            "src":"img/2.png",
+            "src":"img/main/2.png",
             "descript":"React 프로젝트입니다.",
             "front":["Javascript, styled-component, CSS3, HTML5, React"],
             "back":["node.js"],
@@ -21,7 +21,7 @@
         },
         {
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
-            "src":"img/3.png",
+            "src":"img/main/3.png",
             "descript":"",
             "front":["Javascript, styled-component, CSS3, HTML5, React"],
             "back":["node.js"],
@@ -34,7 +34,8 @@
             "src":"img/1.png",
             "title":"📦 Storage",
             "date":"2022년 6월~7월",
-            "href":"https://github.com/kylee31/javascript_example",
+            "webhref":"https://kylee31.github.io/storage/",
+            "href":"https://github.com/kylee31/storage",
             "languages":"JavaScript",
             "color":"#ecd300",
             "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
@@ -49,8 +50,32 @@
         },
         {
             "src":"img/1.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩",
-            "href":"https://github.com/kylee31/javascript_example",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩1",
+            "href":"https://github.com/kylee31/movie_app",
+            "languages":"React",
+            "color":"#009bec",
+            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+        },
+        {
+            "src":"img/1.png",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩2 ",
+            "href":"https://github.com/kylee31/todo_list",
+            "languages":"React",
+            "color":"#009bec",
+            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+        },
+        {
+            "src":"img/1.png",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩3 ",
+            "href":"https://github.com/kylee31/vocabulary_note",
+            "languages":"React",
+            "color":"#009bec",
+            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+        },
+        {
+            "src":"img/1.png",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩4 ",
+            "href":"https://github.com/kylee31/mini_blog",
             "languages":"React",
             "color":"#009bec",
             "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."

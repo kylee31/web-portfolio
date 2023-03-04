@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import Header from './Header';
 
+const Page = styled.div`
+    min-width:550px;
+`
+
 const Container = styled.div`
   display:flex;
   width:100%;
@@ -11,7 +15,7 @@ const Container = styled.div`
 
 function Layout({ children }) {
     return (
-        <div style={{ minWidth: "550px" }}>
+        <Page>
             <header>
                 <Header />
             </header>
@@ -20,7 +24,7 @@ function Layout({ children }) {
                     {children}
                 </Container>
             </main>
-        </div>
+        </Page>
     );
 }
 

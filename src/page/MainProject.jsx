@@ -13,7 +13,6 @@ const Items = styled.div`
 `;
 
 function MainProject() {
-
     return (
         <Box>
             <Items>

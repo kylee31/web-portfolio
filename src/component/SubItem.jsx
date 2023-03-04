@@ -20,21 +20,32 @@ const Item = styled.div`
     margin-right:30px;
     margin-bottom:10px;
 `
+
+const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    max-width: 690px;
+`
+
 const Title = styled.span`
     font-weight:800;
     font-size:1.2rem;
 `
+
 const Date = styled.span`
     font-size:0.9rem;
     margin-left:10px;
     font-weight:bold;
     color:#666666;
 `
+
 const Img = styled.img`
     width:300px;
     height:150px;
     border-bottom:2px solid black;
 `
+
 const Tech = styled.span`
     border-radius:10px;
     font-weight:bold;
@@ -48,6 +59,7 @@ const Tech = styled.span`
     height:25px;
     margin:10px 0;
 `
+
 const Icon = styled.img`
     width: 20px;
     vertical-align: middle;
@@ -58,30 +70,33 @@ const A = styled.a`
     text-decoration-line:none;
     color:lightgrey;
     font-weight:800;
-    font-size:0.8rem;    
+    font-size:0.8rem;
+`
+
+const WebLink = styled.div`
     margin-left:auto;
     margin-top:5px;
-
 `
-function SubItem({ src, title, date, href, youtube, color, languages, descript }) {
 
-    //img
-    //title, date, languages, descript
-
+function SubItem({ src, title, date, webhref, href, youtube, color, languages, descript }) {
     return (
         <Box>
             <Item>
                 {
                     (youtube) ? <iframe width="300" height="150" src={youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> : <Img alt="" src={src} />
-
                 }
-                <A href={href}><Icon alt="" src="img/github2.png" />github code 보기</A>
+                <WebLink>
+                    {
+                        (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
+                    }
+                    <A href={href} target="blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
+                </WebLink>
             </Item>
-            <div style={{ display: "flex", flexDirection: "column", minWidth: "450px", maxWidth: "690px" }}>
+            <Content>
                 <span><Title>{title}</Title><Date>({date})</Date></span>
                 <Tech color={color}>{languages}</Tech>
                 <div>{descript}</div>
-            </div>
+            </Content>
         </Box>
     );
 }

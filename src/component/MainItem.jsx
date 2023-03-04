@@ -19,6 +19,14 @@ const Title = styled.span`
     margin-bottom:5px;
     color:white;
 `
+
+const Content = styled.div`
+    width: 430px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+`
+
 const Tech = styled.span`
     border-radius:10px;
     font-size:0.8rem;
@@ -76,22 +84,25 @@ const WebLink = styled.div`
 `
 
 function MainItem({ title, src, descript, front, back, takeaway, href, webhref }) {
-
     return (
         <Item>
             <Title>{title}</Title>
             <Img alt="" src={src} />
-            <div style={{ width: "430px", height: "200px", backgroundColor: "white", padding: "10px" }}>
-                <div style={{ display: "flex", marginBottom: "5px" }}><Tech>Front-end</Tech><Techs>{front}</Techs></div>
-                <div style={{ display: "flex" }}><Tech>Back-end</Tech><Techs>{back}</Techs></div>
+            <Content>
+                <div style={{ display: "flex", marginBottom: "5px" }}>
+                    <Tech>Front-end</Tech><Techs>{front}</Techs>
+                </div>
+                <div style={{ display: "flex" }}>
+                    <Tech>Back-end</Tech><Techs>{back}</Techs>
+                </div>
                 <Desc>{descript}</Desc>
                 <Take>{takeaway}</Take>
-            </div>
+            </Content>
             <WebLink>
                 {
-                    (webhref) ? <A href={webhref} style={{ color: "#b3e9af" }}><Icon alt="" src="img/website2.png" />hosting 페이지 보기 </A> : <></>
+                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
                 }
-                <A href={href}><Icon alt="" src="img/github2.png" />github code 보기</A>
+                <A href={href} target="blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
             </WebLink>
         </Item>
     );

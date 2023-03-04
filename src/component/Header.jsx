@@ -36,6 +36,7 @@ const Img = styled.img`
     vertical-align: middle;
     margin-right:5px;
 `
+
 const TreeImg = styled.img`
     height: 160px;
     float: left;
@@ -57,7 +58,7 @@ const TabMenu = styled.div`
     cursor:pointer;
     font-weight:800;
     font-size:1.4rem;
-`;
+`
 
 function Header() {
     //탭메뉴 작성(project/info)
@@ -98,9 +99,9 @@ function Header() {
                 <Info>
                     <TreeImg alt="" src="img/tree.png" />
                     <div style={{ marginTop: "10px" }}>
-                        <A target="blank" href="https://github.com/kylee31"><Img alt="" src="img/github.png" />github</A><br /><br />
-                        <A target="blank" href="https://velog.io/@kylee31"><Img alt="" src="img/blog.png" />velog</A><br /><br />
-                        <A target="blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/youtube.png" />youtube</A>
+                        <A target="blank" href="https://github.com/kylee31"><Img alt="" src="img/logo/github.png" />github</A><br /><br />
+                        <A target="blank" href="https://velog.io/@kylee31"><Img alt="" src="img/logo/blog.png" />velog</A><br /><br />
+                        <A target="blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/logo/youtube.png" />youtube</A>
                     </div>
                 </Info>
             </NameTag>
