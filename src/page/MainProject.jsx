@@ -10,6 +10,10 @@ const Items = styled.div`
     flex-direction:row;
     flex-wrap:wrap;
     margin: 30px 100px;
+    
+    @media screen and ( max-width: 1197px ) {
+        justify-content:center;
+      }
 `;
 
 function MainProject() {

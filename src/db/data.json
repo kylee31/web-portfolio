@@ -3,29 +3,29 @@
         {
             "title":"🎬 영화일기(Movie Diary)",
             "src":"img/main/1.png",
-            "descript":"React 프로젝트입니다. 그림일기 형식의 영화 감상문.",
-            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "descript":"그림일기 형식의 영화 감상문",
+            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"CRUD를 모두 구현한 개인 프로젝트. 헤로쿠에 배포 gh-pages로 변경. SPA, localstorage에 데이터 저장, 이미지 화질 개선, 저장 용량 고려, 이미지 저장 가능",
+            "takeaway":"CRUD를 모두 구현한 프로젝트로 헤로쿠에 배포했으나 무료 호스팅 종료로 인해 gh-pages로 호스팅 서비스를 변경하였다. SPA로 사이트를 구현하고 localstorage에 데이터를 저장했다. 이미지 화질 개선, 저장 용량 고려, 이미지 저장 기능 구현했다.",
             "href":"https://github.com/kylee31/movie_diary",
             "webhref":"https://kylee31.github.io/movie_diary/#/"
         },
         {
             "title":"📚 북마크(Book Mark)",
             "src":"img/main/2.png",
-            "descript":"React 프로젝트입니다.",
-            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 서비스",
+            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"json-server를 사용하여 back-end 대신 연습",
+            "takeaway":"카테고리 별로 웹 페이지 링크를 저장할 수 있도록 구현했고 back-end 대신 json-server를 사용하여 data를 저장하고 연습했다. 리렌더링에 대한 오류 방지를 위해 await, async 사용",
             "href":"https://github.com/kylee31/book_mark"
         },
         {
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
             "src":"img/main/3.png",
-            "descript":"",
-            "front":["Javascript, styled-component, CSS3, HTML5, React"],
+            "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
+            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"",
+            "takeaway":"main, sub, profile 페이지를 만들고 map 함수로 json 파일의 데이터를 읽어 보여주도록 했다.",
             "href":"https://github.com/kylee31/web-portfolio"
         }
     ],
@@ -38,7 +38,7 @@
             "href":"https://github.com/kylee31/storage",
             "languages":"JavaScript",
             "color":"#ecd300",
-            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+            "descript":"정보처리기사 자격증 취득 후 프론트엔드 영역에 대한 공부를 시작했다. 간단하게 js, html, css를 사용하여 프로젝트 및 과제 등을 정리하는 웹 페이지를 만들며 기술을 연습했다. 여러 개의 html 파일을 만들어 구현했다."
         },
         {
             "src":"img/sub/02.png",
@@ -90,6 +90,15 @@
             "title":"📂 Redux 연습",
             "date":"2022년 11월",
             "href":"https://github.com/kylee31/mini_blog",
+            "languages":"React",
+            "color":"#009bec",
+            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+        },
+        {
+            "src":"img/1.png",
+            "title":"🔝 TypeScript 공부",
+            "date":"2023년 3월",
+            "href":"https://github.com/kylee31/javascript_example",
             "languages":"React",
             "color":"#009bec",
             "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."

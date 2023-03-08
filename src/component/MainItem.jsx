@@ -42,9 +42,9 @@ const Tech = styled.span`
 
 const Desc = styled.div`
     width:430px;
-    height:50px;
+    height:35px;
     font-size:0.9rem;
-    margin-top:10px;
+    margin-top:15px;
 `
 
 const Techs = styled.div`
@@ -56,7 +56,7 @@ const Techs = styled.div`
 const Take = styled.div`
     width:430px;
     height:60px;
-    font-size:0.9rem;
+    font-size:0.85rem;
 `
 
 const Img = styled.img`
@@ -95,14 +95,14 @@ function MainItem({ title, src, descript, front, back, takeaway, href, webhref }
                 <div style={{ display: "flex" }}>
                     <Tech>Back-end</Tech><Techs>{back}</Techs>
                 </div>
-                <Desc>{descript}</Desc>
+                <Desc>💡 {descript}</Desc>
                 <Take>{takeaway}</Take>
             </Content>
             <WebLink>
                 {
-                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
+                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
                 }
-                <A href={href} target="blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
+                <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
             </WebLink>
         </Item>
     );

@@ -99,9 +99,9 @@ function Header() {
                 <Info>
                     <TreeImg alt="" src="img/tree.png" />
                     <div style={{ marginTop: "10px" }}>
-                        <A target="blank" href="https://github.com/kylee31"><Img alt="" src="img/logo/github.png" />github</A><br /><br />
-                        <A target="blank" href="https://velog.io/@kylee31"><Img alt="" src="img/logo/blog.png" />velog</A><br /><br />
-                        <A target="blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/logo/youtube.png" />youtube</A>
+                        <A target="_blank" href="https://github.com/kylee31"><Img alt="" src="img/logo/github.png" />github</A><br /><br />
+                        <A target="_blank" href="https://velog.io/@kylee31"><Img alt="" src="img/logo/blog.png" />velog</A><br /><br />
+                        <A target="_blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/logo/youtube.png" />youtube</A>
                     </div>
                 </Info>
             </NameTag>
