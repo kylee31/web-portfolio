@@ -16,7 +16,7 @@
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 서비스",
             "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"카테고리 별로 웹 페이지 링크를 저장할 수 있도록 구현했고 back-end 대신 json-server를 사용하여 data를 저장하고 연습했다. 리렌더링에 대한 오류 방지를 위해 await, async 사용",
+            "takeaway":"카테고리 별로 웹 페이지 링크를 저장할 수 있도록 구현했고 back-end 대신 json-server를 사용하여 data를 저장하고 연습했다. 헤로쿠에 json-server를 포함하여 배포하는 연습을 했으나 무료 호스팅 종료로 인해 호스팅 종료",
             "href":"https://github.com/kylee31/book_mark"
         },
         {
@@ -56,7 +56,7 @@
             "href":"https://github.com/kylee31/todo_list",
             "languages":"React",
             "color":"#009bec",
-            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 공부했다. component, props, hook 등을 사용하며 익혔고, todo list를 완성했다."
+            "descript":"https://velopert.com/3480 를 참고하여 벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 공부했다. component, props, hook 등을 사용하며 익혔고, todo list를 완성했다."
         },
         {
             "src":"img/sub/04.png",
@@ -65,7 +65,7 @@
             "href":"https://github.com/kylee31/movie_app",
             "languages":"React",
             "color":"#009bec",
-            "descript":"노마드 코드 강의를 보며 api 호출에 대한 클론 코딩을 하며 공부했다. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내도록 했다."
+            "descript":"https://www.youtube.com/watch?v=sM2p1EqTlw4&list=PL7jH19IHhOLOFTVD4R8FeZWkwpVi8-9Fv&index=1 노마드 코드 강의를 보며 api 호출에 대한 클론 코딩을 하며 공부했다. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내도록 했다."
         },
         {
             "src":"img/sub/05.png",
@@ -74,7 +74,7 @@
             "href":"https://github.com/kylee31/vocabulary_note",
             "languages":"React",
             "color":"#009bec",
-            "descript":"코딩앙마 강의를 보고 클론 코딩을 하며 json-server 사용 및 기초적인 문법에 대한 공부를 했다."
+            "descript":"https://www.youtube.com/watch?v=05uFo_-SGXU&list=PLZKTXPmaJk8J_fHAzPLH8CJ_HO_M33e7-&index=1 코딩앙마 강의를 보고 클론 코딩을 하며 json-server 사용 및 기초적인 문법에 대한 공부를 했다."
         },
         {
             "src":"img/sub/06.png",
@@ -83,7 +83,7 @@
             "href":"https://github.com/kylee31/mini_blog",
             "languages":"React",
             "color":"#009bec",
-            "descript":"인프런 강의(소플)를 들으며 실습 부분을 클론 코딩했다. 기초적인 부분을 다시 한번 다지는 강의였으며 최종 실습으로 블로그 형식을 만들어보는 클론 프로젝트였다."
+            "descript":"https://www.inflearn.com/course/%EC%B2%98%EC%9D%8C-%EB%A7%8C%EB%82%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8 인프런 강의(소플)를 들으며 실습 부분을 클론 코딩했다. 기초적인 부분을 다시 한번 다지는 강의였으며 최종 실습으로 블로그 형식을 만들어보는 클론 프로젝트였다."
         },
         {
             "src":"img/1.png",
@@ -92,7 +92,7 @@
             "href":"",
             "languages":"React",
             "color":"#009bec",
-            "descript":"군인·군무원·경찰공무원 기타 법률이 정하는 자가 전투·훈련등 직무집행과 관련하여 받은 손해에 대하여는 법률이 정하는 보상외에 국가 또는 공공단체에 공무원의 직무상 불법행위로 인한 배상은 청구할 수 없다.국가안전보장회의는 대통령이 주재한다. 법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다."
+            "descript":"상태 관리 라이브러리인 Redux에 대한 실습을 클론코딩 하였다. 기본적인 동작과정 등을 익혔다."
         },
         {
             "src":"img/1.png",
@@ -110,7 +110,7 @@
             "href":"",
             "languages":"React",
             "color":"#009bec",
-            "descript":"프론트엔드에서 많이 필요한 부분이지만 학습이 부족한 것 같아 신청한 원티드 프리온보딩 챌린지에서 강의를 들으며 공부한 클론 코딩이다. 이를 통해 로그인&로그아웃 및 보안에 대한 기초를 다질 수 있었다."
+            "descript":"원티드 프리온보딩 챌린지에서 강의를 들으며 공부한 클론 코딩이다. 이를 통해 학습이 부족하다고 느꼈던 로그인 및 보안에 대한 기초를 다질 수 있었다."
         },
         {
             "src":"img/1.png",
