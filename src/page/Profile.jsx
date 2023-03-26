@@ -61,9 +61,9 @@ function Profile() {
                     <Font color="#4fbb00">Front</Font><br /><hr />
                     <Item>
                         {
-                            data.front.map((item) => {
+                            data.front.map((item, index) => {
                                 return (
-                                    <Tech>
+                                    <Tech key={index}>
                                         <img alt="" src={item.src} />
                                         <div>{item.name}</div>
                                     </Tech>
@@ -76,9 +76,9 @@ function Profile() {
                     <Font color="#4fbb00">Back</Font><br /><hr />
                     <Item >
                         {
-                            data.back.map((item) => {
+                            data.back.map((item, index) => {
                                 return (
-                                    <Tech>
+                                    <Tech key={index}>
                                         <img alt="" src={item.src} />
                                         <div>{item.name}</div>
                                     </Tech>

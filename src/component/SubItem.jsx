@@ -83,7 +83,7 @@ function SubItem({ src, title, date, webhref, href, youtube, color, languages, d
         <Box>
             <Item>
                 {
-                    (youtube) ? <iframe width="300" height="150" src={youtube} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> : <Img alt="" src={src} />
+                    (youtube) ? <iframe width="300" height="150" src={youtube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> : <Img alt="" src={src} />
                 }
                 <WebLink>
                     {

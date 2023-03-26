@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useLayoutEffect, useState } from "react";
 
 const NameTag = styled.div`
     background-color:#199831;
@@ -38,6 +38,7 @@ const Img = styled.img`
 `
 
 const TreeImg = styled.img`
+    widht: 140px;
     height: 160px;
     float: left;
     margin-right: 25px;
@@ -63,10 +64,11 @@ const TabMenu = styled.div`
 function Header() {
     //탭메뉴 작성(project/info)
     const navigate = useNavigate();
-    const [click, setClick] = useState("main");
+    const nowLoc = useLocation();
+    const [click, setClick] = useState(nowLoc.pathname);
 
-    useEffect(() => {
-        const pages = ["main", "sub", "profile"];
+    useLayoutEffect(() => {
+        const pages = ["/", "/sub/", "/profile/"];
         const noPages = pages.filter((e) => e !== click);
         document.getElementById(click).style.backgroundColor = "aliceblue";
         document.getElementById(click).style.color = "black";
@@ -79,17 +81,17 @@ function Header() {
 
     function onMain() {
         navigate(`/`);
-        setClick("main");
+        setClick("/");
     }
 
     function onSub() {
         navigate(`/sub/`);
-        setClick("sub");
+        setClick("/sub/");
     }
 
     function onProfile() {
         navigate(`/profile/`);
-        setClick("profile");
+        setClick("/profile/");
     }
 
     return (
@@ -105,9 +107,9 @@ function Header() {
                     </div>
                 </Info>
             </NameTag>
-            <TabMenu onClick={onMain} id="main">MAIN PROJECT</TabMenu>
-            <TabMenu onClick={onSub} id="sub">SUB PROJECT</TabMenu>
-            <TabMenu onClick={onProfile} id="profile">PROFILE</TabMenu>
+            <TabMenu onClick={onMain} id="/">MAIN PROJECT</TabMenu>
+            <TabMenu onClick={onSub} id="/sub/">SUB PROJECT</TabMenu>
+            <TabMenu onClick={onProfile} id="/profile/">PROFILE</TabMenu>
         </div >
     );
 }

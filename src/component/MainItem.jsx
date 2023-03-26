@@ -30,8 +30,7 @@ const Content = styled.div`
 const Tech = styled.span`
     border-radius:10px;
     font-size:0.8rem;
-    font-weight:bold;
-    background-color:#666666;
+    background-color:grey;
     color:white;
     text-align:center;
     padding:0 5px;
@@ -40,22 +39,22 @@ const Tech = styled.span`
     margin-right:5px;
 `
 
+const Techs = styled.div`
+    font-size:0.85rem;
+    color:#666666;
+    font-weight:bold;
+`
+
 const Desc = styled.div`
     width:430px;
     height:35px;
     font-size:0.9rem;
-    margin-top:15px;
-`
-
-const Techs = styled.div`
-    font-size:0.85rem;
-    color:#666666;
-    font-weight:800;
+    font-weight:bold;
 `
 
 const Take = styled.div`
     width:430px;
-    height:60px;
+    height:100px;
     font-size:0.85rem;
 `
 
@@ -89,14 +88,14 @@ function MainItem({ title, src, descript, front, back, takeaway, href, webhref }
             <Title>{title}</Title>
             <Img alt="" src={src} />
             <Content>
+                <Desc>💡 {descript}</Desc>
+                <Take>{takeaway}</Take>
                 <div style={{ display: "flex", marginBottom: "5px" }}>
                     <Tech>Front-end</Tech><Techs>{front}</Techs>
                 </div>
                 <div style={{ display: "flex" }}>
                     <Tech>Back-end</Tech><Techs>{back}</Techs>
                 </div>
-                <Desc>💡 {descript}</Desc>
-                <Take>{takeaway}</Take>
             </Content>
             <WebLink>
                 {
