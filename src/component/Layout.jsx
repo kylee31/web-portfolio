@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Header from './Header';
+import ScrollBtn from './ScrollBtn';
 
 const Page = styled.div`
     min-width:550px;
@@ -23,6 +24,7 @@ function Layout({ children }) {
                 <Container>
                     {children}
                 </Container>
+                <ScrollBtn />
             </main>
         </Page>
     );

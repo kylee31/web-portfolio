@@ -52,9 +52,9 @@ function Profile() {
                     <Pic alt="" src="img/pic.jpg" />
                     <Content>
                         <h1>이경연</h1> skyvip3031@naver.com<br /><hr />
-                        웹 디자인에 관심을 두고 이에 대한 재능을 가지고 있습니다. 팀원과의 소통과 의견 나눔을 중요시 여기는 책임감 있는 개발자가 되고 싶습니다.
+                        웹 디자인에 관심을 두고 이에 대한 재능을 가지고 있습니다. 팀원과의 소통과 의견 나눔을 중요시 여기는 책임감 있는 개발자가 되겠습니다.
                         <br /><br />
-                        <Font>✅ GTQ 2급 2017년<br />✅ 정보처리기사 2022년</Font>
+                        <Font>✅ GTQ 2급<br />✅ 정보처리기사</Font>
                     </Content>
                 </Pro>
                 <Dev>
