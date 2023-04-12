@@ -2,48 +2,6 @@ import styled from "styled-components";
 import { Box } from "../styled/Pages";
 import data from "../db/data.json";
 
-const Pic = styled.img`
-    width: 200px;
-    height: 250px;
-    margin: 0 20px;
-`
-
-const Content = styled.div`
-    max-width: 600px;
-    margin: 0 20px;
-`
-
-const Tech = styled.div`
-    display: inline-block;
-    text-align: center;
-`
-
-const Pro = styled.div`
-    display:flex;
-    align-item:center;
-    justify-content:space-around;
-    flex-wrap:wrap; 
-    margin: 70px 100px;
-`
-
-const Dev = styled.div`
-    margin: 35px 100px;
-`
-
-const Item = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    margin-bottom:50px;
-`
-
-const Font = styled.span`
-    font-weight: bold;
-    color: ${props => props.color};
-    font-size: 1.1rem;
-`
-
 function Profile() {
     return (
         <Box>
@@ -93,3 +51,46 @@ function Profile() {
 }
 
 export default Profile;
+
+
+const Pic = styled.img`
+    width: 200px;
+    height: 250px;
+    margin: 0 20px;
+`
+
+const Content = styled.div`
+    max-width: 600px;
+    margin: 0 20px;
+`
+
+const Tech = styled.div`
+    display: inline-block;
+    text-align: center;
+`
+
+const Pro = styled.div`
+    display:flex;
+    align-item:center;
+    justify-content:space-around;
+    flex-wrap:wrap; 
+    margin: 70px 100px;
+`
+
+const Dev = styled.div`
+    margin: 35px 100px;
+`
+
+const Item = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+`
+
+const Font = styled.span`
+    font-weight: bold;
+    color: ${props => props.color};
+    font-size: 1.1rem;
+`

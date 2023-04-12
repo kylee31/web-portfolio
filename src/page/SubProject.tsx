@@ -3,13 +3,6 @@ import { Box } from "../styled/Pages";
 import data from "../db/data.json";
 import styled from "styled-components";
 
-const Items = styled.div`
-    display:flex;
-    width:100%;
-    margin: 30px 100px;
-    flex-direction:column;
-`;
-
 function SubProject() {
     return (
         <Box>
@@ -25,3 +18,11 @@ function SubProject() {
 }
 
 export default SubProject;
+
+
+const Items = styled.div`
+    display:flex;
+    width:100%;
+    margin: 30px 100px;
+    flex-direction:column;
+`;

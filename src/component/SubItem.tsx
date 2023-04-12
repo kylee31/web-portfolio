@@ -1,5 +1,42 @@
 import styled from "styled-components";
 
+interface SubInfo{
+    src:string,
+    title:string,
+    date:string,
+    webhref?:string,
+    href:string,
+    youtube?:string,
+    color:string,
+    languages:string,
+    descript:string
+}
+
+function SubItem({ src, title, date, webhref, href, youtube, color, languages, descript }:SubInfo) {
+    return (
+        <Box>
+            <Item>
+                {
+                    (youtube) ? <iframe width="300" height="150" src={youtube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> : <Img alt="" src={src} />
+                }
+                <WebLink>
+                    {
+                        (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
+                    }
+                    <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
+                </WebLink>
+            </Item>
+            <Content>
+                <span><Title>{title}</Title><Date>({date})</Date></span>
+                <Tech color={color}>{languages}</Tech>
+                <div>{descript}</div>
+            </Content>
+        </Box>
+    );
+}
+
+export default SubItem;
+
 const Box = styled.div`
     display:flex;
     margin:40px 0;
@@ -77,28 +114,3 @@ const WebLink = styled.div`
     margin-left:auto;
     margin-top:5px;
 `
-
-function SubItem({ src, title, date, webhref, href, youtube, color, languages, descript }) {
-    return (
-        <Box>
-            <Item>
-                {
-                    (youtube) ? <iframe width="300" height="150" src={youtube} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> : <Img alt="" src={src} />
-                }
-                <WebLink>
-                    {
-                        (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
-                    }
-                    <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
-                </WebLink>
-            </Item>
-            <Content>
-                <span><Title>{title}</Title><Date>({date})</Date></span>
-                <Tech color={color}>{languages}</Tech>
-                <div>{descript}</div>
-            </Content>
-        </Box>
-    );
-}
-
-export default SubItem;

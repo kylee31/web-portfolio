@@ -3,6 +3,23 @@ import MainItem from "../component/MainItem";
 import { Box } from "../styled/Pages";
 import data from "../db/data.json";
 
+function MainProject() {
+    return (
+        <Box>
+            <Items>
+                {
+                    data.projects.map((item, index:number) => {
+                        return <MainItem key={index} title={item.title} src={item.src} descript={item.descript} front={item.front} back={item.back} takeaway={item.takeaway} href={item.href} webhref={item.webhref} />
+                    })
+                }
+            </Items>
+        </Box>
+    );
+}
+
+export default MainProject;
+
+
 const Items = styled.div`
     display:flex;
     width:100%;
@@ -15,19 +32,3 @@ const Items = styled.div`
         justify-content:center;
       }
 `;
-
-function MainProject() {
-    return (
-        <Box>
-            <Items>
-                {
-                    data.projects.map((item, index) => {
-                        return <MainItem key={index} title={item.title} src={item.src} descript={item.descript} front={item.front} back={item.back} takeaway={item.takeaway} href={item.href} webhref={item.webhref} />
-                    })
-                }
-            </Items>
-        </Box>
-    );
-}
-
-export default MainProject;

@@ -1,5 +1,44 @@
 import styled from "styled-components";
 
+interface MainInfo{
+    title:string,
+    src:string,
+    descript:string,
+    front:string[],
+    back:string[],
+    takeaway:string,
+    href:string,
+    webhref?:string
+}
+
+function MainItem({ title, src, descript, front, back, takeaway, href, webhref }:MainInfo) {
+    return (
+        <Item>
+            <Title>{title}</Title>
+            <Img alt="" src={src} />
+            <Content>
+                <Desc>💡 {descript}</Desc>
+                <Take>{takeaway}</Take>
+                <div style={{ display: "flex", marginBottom: "5px" }}>
+                    <Tech>Front-end</Tech><Techs>{front}</Techs>
+                </div>
+                <div style={{ display: "flex" }}>
+                    <Tech>Back-end</Tech><Techs>{back}</Techs>
+                </div>
+            </Content>
+            <WebLink>
+                {
+                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
+                }
+                <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
+            </WebLink>
+        </Item>
+    );
+}
+
+export default MainItem;
+
+
 const Item = styled.div`
     display:flex;
     justify-content:center;
@@ -81,30 +120,3 @@ const WebLink = styled.div`
     margin-left:auto;
     margin-top:10px;
 `
-
-function MainItem({ title, src, descript, front, back, takeaway, href, webhref }) {
-    return (
-        <Item>
-            <Title>{title}</Title>
-            <Img alt="" src={src} />
-            <Content>
-                <Desc>💡 {descript}</Desc>
-                <Take>{takeaway}</Take>
-                <div style={{ display: "flex", marginBottom: "5px" }}>
-                    <Tech>Front-end</Tech><Techs>{front}</Techs>
-                </div>
-                <div style={{ display: "flex" }}>
-                    <Tech>Back-end</Tech><Techs>{back}</Techs>
-                </div>
-            </Content>
-            <WebLink>
-                {
-                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" />hosting 페이지 보기 </A> : <></>
-                }
-                <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
-            </WebLink>
-        </Item>
-    );
-}
-
-export default MainItem;
