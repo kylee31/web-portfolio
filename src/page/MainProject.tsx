@@ -8,7 +8,7 @@ function MainProject() {
         <Box>
             <Items>
                 {
-                    data.projects.map((item, index:number) => {
+                    data.projects.map((item, index) => {
                         return <MainItem key={index} title={item.title} src={item.src} descript={item.descript} front={item.front} back={item.back} takeaway={item.takeaway} href={item.href} webhref={item.webhref} />
                     })
                 }
@@ -18,7 +18,6 @@ function MainProject() {
 }
 
 export default MainProject;
-
 
 const Items = styled.div`
     display:flex;

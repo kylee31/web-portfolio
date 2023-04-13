@@ -24,7 +24,7 @@
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
             "src":"img/main/3.png",
             "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
-            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
+            "front":["React, TypeScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
             "takeaway":"main, sub(연습 및 강의 포함), profile 페이지를 만들고 map 함수로 json 파일의 데이터를 읽어 보여준다. 레이아웃 파일을 만들어 컴포넌트 정리했다. ",
             "href":"https://github.com/kylee31/web-portfolio"
@@ -131,6 +131,10 @@
         {
             "src":"img/front/f4.png",
             "name":"JavaScript ES6"
+        },
+        {
+            "src":"img/front/f6.png",
+            "name":"TypeScript"
         },
         {
             "src":"img/front/f5.png",

@@ -4,12 +4,12 @@ interface SubInfo{
     src:string,
     title:string,
     date:string,
-    webhref?:string,
     href:string,
-    youtube?:string,
     color:string,
     languages:string,
-    descript:string
+    descript:string,
+    webhref?:string,
+    youtube?:string
 }
 
 function SubItem({ src, title, date, webhref, href, youtube, color, languages, descript }:SubInfo) {

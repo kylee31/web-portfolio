@@ -22,17 +22,17 @@ function Header() {
         });
     }, [click]);
 
-    function onMain() {
+    const onMain=()=>{
         navigate(`/`);
         setClick("/");
     }
 
-    function onSub() {
+    const onSub=()=>{
         navigate(`/sub/`);
         setClick("/sub/");
     }
 
-    function onProfile() {
+    const onProfile=()=>{
         navigate(`/profile/`);
         setClick("/profile/");
     }
