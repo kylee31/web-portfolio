@@ -69,6 +69,7 @@ const Content = styled.div`
 const Tech = styled.span`
     border-radius:10px;
     font-size:0.8rem;
+    font-weight:bolder;
     background-color:grey;
     color:white;
     text-align:center;
@@ -95,6 +96,7 @@ const Take = styled.div`
     width:430px;
     height:100px;
     font-size:0.85rem;
+    white-space:pre-line;
 `
 
 const Img = styled.img`

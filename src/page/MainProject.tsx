@@ -22,12 +22,13 @@ export default MainProject;
 const Items = styled.div`
     display:flex;
     width:100%;
+    max-width:1200px;
     justify-content:space-between;
     flex-direction:row;
     flex-wrap:wrap;
     margin: 30px 100px;
     
-    @media screen and ( max-width: 1197px ) {
+    @media screen and ( max-width: 1200px ) {
         justify-content:center;
       }
 `;

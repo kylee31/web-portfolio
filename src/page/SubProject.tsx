@@ -23,6 +23,7 @@ export default SubProject;
 const Items = styled.div`
     display:flex;
     width:100%;
+    max-width:1200px;
     margin: 30px 100px;
     flex-direction:column;
 `;

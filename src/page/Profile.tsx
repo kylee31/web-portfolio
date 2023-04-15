@@ -5,7 +5,7 @@ import data from "../db/data.json";
 function Profile() {
     return (
         <Box>
-            <div>
+            <div style={{maxWidth:"1200px"}}>
                 <Pro>
                     <Pic alt="" src="img/pic.jpg" />
                     <Content>
