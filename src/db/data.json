@@ -8,7 +8,7 @@
             "back":["node.js"],
             "takeaway":"CRUD를 모두 구현한 프로젝트(gh-pages 배포).\nSPA 형식으로 작성하고 localstorage에 데이터를 저장한다. html2canvas로 이미지 저장 기능을 추가하였고, localstorage의 한정된 용량을 고려하여 webGL로 이미지 크기를 제한한다.",
             "href":"https://github.com/kylee31/movie_diary",
-            "webhref":"https://kylee31.github.io/movie_diary/#/"
+            "webhref":"https://kylee31.github.io/movie_diary/"
         },
         {
             "title":"📚 북마크(Book Mark)",
