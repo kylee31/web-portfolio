@@ -6,7 +6,7 @@
             "descript":"그림일기 형식의 영화 감상문",
             "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"CRUD를 모두 구현한 프로젝트(gh-pages 배포).\nSPA 형식으로 작성하고 localstorage에 데이터를 저장한다. html2canvas로 이미지 저장 기능을 추가하였고, localstorage의 한정된 용량을 고려하여 webGL로 이미지 크기를 제한한다.",
+            "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ html2canvas 사용하여 이미지 저장 기능 추가\n◾ localstorage의 한정된 용량을 고려하여 webGL로 이미지 크기 제한",
             "href":"https://github.com/kylee31/movie_diary",
             "webhref":"https://kylee31.github.io/movie_diary/"
         },
@@ -16,7 +16,7 @@
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 서비스",
             "front":["React, JavaScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"CRD를 구현한 프로젝트(firebase 배포).\nSPA 형식으로 작성하고 Cloud Firestore에 데이터를 저장한다. API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 서비스를 이용하도록 구현했다.",
+            "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 서비스를 이용하도록 구현",
             "href":"https://github.com/kylee31/book_mark",
             "webhref":"https://book-mark-db594.web.app/"
         },
@@ -26,7 +26,7 @@
             "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
             "front":["React, TypeScript, HTML5, CSS3, styled-component"],
             "back":["node.js"],
-            "takeaway":"SPA 형식으로 만든 프로젝트(firebase 배포).\nTypeScript를 사용하여 반응형 웹 페이지를 구현했다. main, sub, profile 페이지를 작성하고 레이아웃 컴포넌트를 만들어 페이지를 정리했다.",
+            "takeaway":"◾ SPA 형식으로 만든 React 프로젝트 (firebase 배포)\n◾ TypeScript를 사용하여 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
             "href":"https://github.com/kylee31/web-portfolio"
         }
     ],
@@ -39,7 +39,7 @@
             "href":"https://github.com/kylee31/storage",
             "languages":"JavaScript",
             "color":"#ecd300",
-            "descript":"정보처리기사 자격증 취득 후 프론트엔드 영역에 대한 공부를 시작했다. JS, HTML, CSS를 사용하여 MPA 형식으로 프로젝트 및 과제 등을 정리하는 웹 페이지를 만들며 기술을 연습했다."
+            "descript":"정보처리기사 자격증 취득 후 프론트엔드 분야에 대한 학습 시작. JS, HTML, CSS를 사용하여 MPA 형식으로 프로젝트 및 과제 등을 정리하는 웹 페이지를 만들며 기초 연습."
         },
         {
             "src":"img/sub/02.png",
@@ -48,7 +48,7 @@
             "href":"https://github.com/kylee31/javascript_example",
             "languages":"JavaScript",
             "color":"#ecd300",
-            "descript":"24 JavaScript Projects You Can Build to Perfect Your Coding Skills - by Mikke를 참고하여 자바스크립트 토이 프로젝트를 연습했다. 코드 참고없이 프로젝트를 구현했고, 이후 예제 코드를 보며 구현한 코드와 다른 부분을 공부하며 함수와 메소드 등을 학습했다."
+            "descript":"24 JavaScript Projects You Can Build to Perfect Your Coding Skills - by Mikke를 참고하여 자바스크립트 토이 프로젝트 진행. 원본 코드 참고없이 프로젝트를 구현했으며, 이후 예제 코드를 보며 직접 구현한 코드와 다른 부분을 공부하며 함수와 메소드 등 학습."
         },
         {
             "src":"img/sub/03.png",
@@ -57,7 +57,7 @@
             "href":"https://github.com/kylee31/todo_list",
             "languages":"React",
             "color":"#009bec",
-            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 공부했다. component, props, hook 등을 사용하며 익혔고, todo list를 완성했다."
+            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 학습. component, props, hook 등을 사용하며 익혔고, todo list 완성."
         },
         {
             "src":"img/sub/04.png",
@@ -66,7 +66,7 @@
             "href":"https://github.com/kylee31/movie_app",
             "languages":"React",
             "color":"#009bec",
-            "descript":"노마드 코드(youtube) 강의를 보며 api 호출에 대한 클론 코딩을 하며 공부했다. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내도록 했다."
+            "descript":"노마드 코드(youtube) 강의를 보며 api 호출에 대한 클론 코딩 하며 공부. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내는 웹 페이지 완성."
         },
         {
             "src":"img/sub/05.png",
@@ -75,7 +75,7 @@
             "href":"https://github.com/kylee31/vocabulary_note",
             "languages":"React",
             "color":"#009bec",
-            "descript":"코딩앙마(yotube) 강의를 보고 클론 코딩을 하며 json-server 사용 및 기초적인 문법에 대한 공부를 했다."
+            "descript":"코딩앙마(yotube) 강의를 보고 클론 코딩을 하며 json-server 사용 및 React 기초적인 문법에 대한 학습."
         },
         {
             "src":"img/sub/06.png",
@@ -84,7 +84,7 @@
             "href":"https://github.com/kylee31/mini_blog",
             "languages":"React",
             "color":"#009bec",
-            "descript":"소플(inflearn) 강의를 들으며 실습 부분을 클론 코딩했다. 기초적인 부분을 다시 되짚는 강의였으며 최종 실습으로 블로그 형식을 만들어보는 클론 프로젝트였다."
+            "descript":"소플(inflearn) 강의를 들으며 실습 부분 클론 코딩. 기초적인 부분을 다시 되짚는 강의였으며 최종 실습으로 블로그 형식을 만들어보는 클론 프로젝트."
         },
         {
             "src":"img/sub/07.png",
@@ -93,7 +93,7 @@
             "href":"https://github.com/kylee31/wanted-pre-onboarding-3-FE-quest",
             "languages":"React",
             "color":"#009bec",
-            "descript":"원티드 프리온보딩 챌린지에서 강의를 들으며 공부한 클론 코딩이다. 이를 통해 학습이 부족하다고 느꼈던 로그인 및 보안에 대한 기초를 다질 수 있었다."
+            "descript":"원티드 프리온보딩 챌린지에서 강의를 들으며 공부한 클론 실습 코딩. 학습이 부족하다고 느꼈던 로그인 및 보안 분야에 대한 기초 공부."
         },
         {
             "src":"img/1.png",
@@ -103,7 +103,7 @@
             "youtube":"https://www.youtube.com/embed/SVOTXUpaUR8",
             "languages":"C++",
             "color":"#d94848",
-            "descript":"재학 당시 완성한 팀플 과제. 총 3명으로 구성된 인원으로 3개월 동안 진행한 팀 프로젝트이며, 게임 주제부터 사용성 테스트까지 거친 프로젝트였다. 교내 대회에서 수상하였으며 이를 통해 개발에서의 소통 및 의견 조율이 매우 중요함을 느낄 수 있었다."
+            "descript":"재학 당시 완성한 팀플 과제. 총 3명으로 구성된 인원으로 3개월 동안 진행한 팀 프로젝트이며, 게임 주제부터 사용성 테스트까지 거친 프로젝트. 해당 작품으로 교내 대회에서 수상했으며 개발에서 소통 및 의견 조율이 매우 중요함을 느낄 수 있었던 프로젝트."
         }
     ],
     "front":[

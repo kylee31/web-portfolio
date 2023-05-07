@@ -63,6 +63,7 @@ const Content = styled.div`
     flex-direction: column;
     min-width: 450px;
     max-width: 690px;
+    white-space:pre-line;
 `
 
 const Title = styled.span`
