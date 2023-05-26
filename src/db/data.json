@@ -4,7 +4,7 @@
             "title":"🎬 영화일기(Movie Diary)",
             "src":"img/main/1.png",
             "descript":"그림일기 형식의 영화 감상문",
-            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
+            "front":["TypeScript, React, HTML5, CSS3(styled-component, SCSS)"],
             "back":["node.js"],
             "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ html2canvas 사용하여 이미지 저장 기능 추가\n◾ localstorage의 한정된 용량을 고려하여 webGL로 이미지 크기 제한",
             "href":"https://github.com/kylee31/movie_diary",
@@ -14,7 +14,7 @@
             "title":"📚 북마크(Book Mark)",
             "src":"img/main/2.png",
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 서비스",
-            "front":["React, JavaScript, HTML5, CSS3, styled-component"],
+            "front":["JavaScript, React, HTML5, CSS3(styled-component)"],
             "back":["node.js"],
             "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 서비스를 이용하도록 구현",
             "href":"https://github.com/kylee31/book_mark",
@@ -24,9 +24,9 @@
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
             "src":"img/main/3.png",
             "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
-            "front":["React, TypeScript, HTML5, CSS3, styled-component"],
+            "front":["TypeScript, React, HTML5, CSS3(styled-component)"],
             "back":["node.js"],
-            "takeaway":"◾ SPA 형식으로 만든 React 프로젝트 (firebase 배포)\n◾ TypeScript를 사용하여 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
+            "takeaway":"◾ TypeScript를 사용하여 만든 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
             "href":"https://github.com/kylee31/web-portfolio"
         }
     ],
@@ -51,17 +51,8 @@
             "descript":"24 JavaScript Projects You Can Build to Perfect Your Coding Skills - by Mikke를 참고하여 자바스크립트 토이 프로젝트 진행. 원본 코드 참고없이 프로젝트를 구현했으며, 이후 예제 코드를 보며 직접 구현한 코드와 다른 부분을 공부하며 함수와 메소드 등 학습."
         },
         {
-            "src":"img/sub/03.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩1, todo list",
-            "date":"2022년 6월",
-            "href":"https://github.com/kylee31/todo_list",
-            "languages":"React",
-            "color":"#009bec",
-            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 학습. component, props, hook 등을 사용하며 익혔고, todo list 완성."
-        },
-        {
             "src":"img/sub/04.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩2, movie app",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩1, movie app",
             "date":"2022년 7월",
             "href":"https://github.com/kylee31/movie_app",
             "languages":"React",
@@ -69,22 +60,22 @@
             "descript":"노마드 코드(youtube) 강의를 보며 api 호출에 대한 클론 코딩 하며 공부. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내는 웹 페이지 완성."
         },
         {
+            "src":"img/sub/03.png",
+            "title":"👨🏻‍🤝‍👨🏻 클론 코딩2, todo list",
+            "date":"2022년 8월",
+            "href":"https://github.com/kylee31/todo_list",
+            "languages":"React",
+            "color":"#009bec",
+            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 학습. component, props, hook 등을 사용하며 익혔고, todo list 완성. 이후 useReducer와 Context API 사용하여 전역상태관리 연습."
+        },
+        {
             "src":"img/sub/05.png",
             "title":"👨🏻‍🤝‍👨🏻 클론 코딩3, vocabulary note",
-            "date":"2022년 8월",
+            "date":"2022년 9월",
             "href":"https://github.com/kylee31/vocabulary_note",
             "languages":"React",
             "color":"#009bec",
             "descript":"코딩앙마(yotube) 강의를 보고 클론 코딩을 하며 json-server 사용 및 React 기초적인 문법에 대한 학습."
-        },
-        {
-            "src":"img/sub/06.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩4, mini blog",
-            "date":"2022년 8월",
-            "href":"https://github.com/kylee31/mini_blog",
-            "languages":"React",
-            "color":"#009bec",
-            "descript":"소플(inflearn) 강의를 들으며 실습 부분 클론 코딩. 기초적인 부분을 다시 되짚는 강의였으며 최종 실습으로 블로그 형식을 만들어보는 클론 프로젝트."
         },
         {
             "src":"img/sub/07.png",
@@ -103,7 +94,7 @@
             "youtube":"https://www.youtube.com/embed/SVOTXUpaUR8",
             "languages":"C++",
             "color":"#d94848",
-            "descript":"재학 당시 완성한 팀플 과제. 총 3명으로 구성된 인원으로 3개월 동안 진행한 팀 프로젝트이며, 게임 주제부터 사용성 테스트까지 거친 프로젝트. 해당 작품으로 교내 대회에서 수상했으며 개발에서 소통 및 의견 조율이 매우 중요함을 느낄 수 있었던 프로젝트."
+            "descript":"재학 당시 완성한 팀플 과제. 총 3명으로 구성된 인원으로 3개월 동안 진행한 팀 프로젝트이며, 초기 구상부터 사용성 평가까지 거친 프로젝트. 해당 작품으로 교내 대회에서 수상했으며 개발에서 소통 및 의견 조율이 매우 중요함을 느낄 수 있었던 프로젝트."
         }
     ],
     "front":[

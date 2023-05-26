@@ -4,6 +4,7 @@ import { useLayoutEffect, useState } from "react";
 
 function Header() {
     //탭메뉴 작성(project/info)
+    //click은 현재 선택된 메뉴의 pathname
     const navigate = useNavigate();
     const nowLoc = useLocation();
     const [click, setClick] = useState(nowLoc.pathname);
@@ -42,12 +43,12 @@ function Header() {
             <NameTag>
                 <Span>⚡JUNIOR FRONT-END DEVELOPER, LEE KYUNG YEON⚡</Span>
                 <Info>
-                    <TreeImg alt="" src="img/tree.png" />
-                    <div style={{ marginTop: "10px" }}>
+                    <TreeImg alt="" src="img/tree.png" loading="lazy"/>
+                    <Div>
                         <A target="_blank" href="https://github.com/kylee31"><Img alt="" src="img/logo/github.png" />github</A><br /><br />
                         <A target="_blank" href="https://velog.io/@kylee31"><Img alt="" src="img/logo/blog.png" />velog</A><br /><br />
                         <A target="_blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/logo/youtube.png" />youtube</A>
-                    </div>
+                    </Div>
                 </Info>
             </NameTag>
             <TabMenu onClick={onMain} id="/">MAIN PROJECT</TabMenu>
@@ -58,6 +59,10 @@ function Header() {
 }
 
 export default Header;
+
+const Div=styled.div`
+    margin-top: 10px;
+`
 
 const NameTag = styled.div`
     background-color:#199831;
