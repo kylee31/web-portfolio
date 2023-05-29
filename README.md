@@ -3,6 +3,12 @@
 React를 사용하여 TypeScript로 구현한 웹 포트폴리오 (2023, TypeScript)
 <br><br>
 
+## 구현 기술
+
+- React로 구현한 프로젝트.
+  <br>(React, Typescript, HTML, CSS(styled-components)
+- 반응형 웹 페이지로 구현.
+
 ## 목록
 
 1. Main Project
@@ -13,11 +19,12 @@ React를 사용하여 TypeScript로 구현한 웹 포트폴리오 (2023, TypeScr
    <br> 자격증 및 사용 기술 소개
    <br><br>
 
-## 호스팅 링크
+## 웹 사이트 링크
 
-[web portfolio](https://web-portfolio-deac9.web.app)
-<br><br>
+<h3>https://web-portfolio-deac9.web.app<h3>
+<br>
 
 ## 프로젝트 개발환경
 
 VScode (version 1.77.2)<br>
+Typescript (version 5.0.4)<br>
