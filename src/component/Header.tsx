@@ -45,9 +45,9 @@ function Header() {
                 <Info>
                     <TreeImg alt="" src="img/tree.png" loading="lazy"/>
                     <Div>
-                        <A target="_blank" href="https://github.com/kylee31"><Img alt="" src="img/logo/github.png" />github</A><br /><br />
-                        <A target="_blank" href="https://velog.io/@kylee31"><Img alt="" src="img/logo/blog.png" />velog</A><br /><br />
-                        <A target="_blank" href="https://www.youtube.com/@ky5211/featured"><Img alt="" src="img/logo/youtube.png" />youtube</A>
+                        <A target="_blank" href="https://github.com/kylee31" title="code, readme 보러가기"><Img alt="" src="img/logo/github.png"/>github</A><br /><br />
+                        <A target="_blank" href="https://velog.io/@kylee31" title="개발 blog 보러가기"><Img alt="" src="img/logo/blog.png"/>velog</A><br /><br />
+                        <A target="_blank" href="https://www.youtube.com/@ky5211/featured" title="project 시연 영상 보러가기"><Img alt="" src="img/logo/youtube.png"/>youtube</A>
                     </Div>
                 </Info>
             </NameTag>
