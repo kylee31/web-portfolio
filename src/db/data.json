@@ -6,7 +6,7 @@
             "descript":"그림일기 형식의 영화 감상문",
             "front":["TypeScript, React, HTML5, CSS3(styled-component, SCSS)"],
             "back":["node.js"],
-            "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ localstorage의 한정된 용량을 고려하여 webGL로 이미지 크기 제한\n◾ Context API와 useReducer로 전역 상태 관리",
+            "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ localstorage의 한정된 용량을 고려해 Canvas API로 이미지 크기제한\n◾ Context API와 useReducer로 전역 상태 관리",
             "href":"https://github.com/kylee31/movie_diary",
             "webhref":"https://kylee31.github.io/movie_diary/"
         },
@@ -15,7 +15,7 @@
             "src":"img/main/2.png",
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 사이트",
             "front":["JavaScript, React, HTML5, CSS3(styled-component)"],
-            "back":["node.js"],
+            "back":["node.js","Firestore(firebase)"],
             "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 사이트를 이용하도록 구현",
             "href":"https://github.com/kylee31/book_mark",
             "webhref":"https://book-mark-db594.web.app/"
