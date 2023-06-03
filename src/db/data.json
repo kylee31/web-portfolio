@@ -15,7 +15,7 @@
             "src":"img/main/2.png",
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 사이트",
             "front":["JavaScript, React, HTML5, CSS3(styled-component)"],
-            "back":["node.js","Firestore(firebase)"],
+            "back":["node.js, Firestore(firebase)"],
             "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 사이트를 이용하도록 구현",
             "href":"https://github.com/kylee31/book_mark",
             "webhref":"https://book-mark-db594.web.app/"

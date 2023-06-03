@@ -5,7 +5,7 @@ function ScrollBtn() {
 
     const [showBtn, setShowBtn] = useState(false);
 
-    const scrollTop=()=>{
+    function scrollTop(){
         window.scroll({
             top: 0,
             behavior: 'smooth'
@@ -13,9 +13,11 @@ function ScrollBtn() {
     }
 
     useEffect(() => {
-        const handleShowBtn = () => (window.scrollY > 500) ? setShowBtn(true) : setShowBtn(false)
+        function handleShowBtn(){
+            (window.scrollY > 500) ? setShowBtn(true) : setShowBtn(false)
+        }
         window.addEventListener("scroll", handleShowBtn);
-        return () => window.removeEventListener("scroll", handleShowBtn)
+        return () => window.removeEventListener("scroll", ()=>{console.log("dd"); return false})
     }, [])
 
     return (
