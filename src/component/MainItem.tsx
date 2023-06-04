@@ -28,9 +28,9 @@ function MainItem({ title, src, descript, front, back, takeaway, href, webhref }
             </Content>
             <WebLink>
                 {
-                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" loading="lazy" />web site 보기 </A> : <></>
+                    (webhref) ? <A style={{ color: "#b3e9af" }} href={webhref} target="_blank"><Icon alt="" src="img/logo/website.png" loading="lazy" />Web Site 보기 </A> : <></>
                 }
-                <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />github code 보기</A>
+                <A href={href} target="_blank"><Icon alt="" src="img/logo/github2.png" />GitHub code 보기</A>
             </WebLink>
         </Item>
     );
