@@ -20,15 +20,13 @@ function MainProject() {
 export default MainProject;
 
 const Items = styled.div`
-    display:flex;
-    width:100%;
-    max-width:1200px;
-    justify-content:space-between;
-    flex-direction:row;
-    flex-wrap:wrap;
-    margin: 30px 100px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:80px 100px;
+    margin:70px 0;
     
     @media screen and ( max-width: 1200px ) {
-        justify-content:center;
+        grid-template-columns:repeat(1,1fr);
+        place-content:center;
       }
 `;

@@ -39,10 +39,10 @@ export default SubItem;
 
 const Box = styled.div`
     display:flex;
-    margin:40px 0;
     align-items:center;
     justify-content:space-around;
     flex-wrap:wrap;
+    margin:40px 0;
 `
 
 const Item = styled.div`
