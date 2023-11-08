@@ -1,6 +1,15 @@
 {
     "projects":[
         {
+            "title":"🛫 여행 계획 (Travel Plan)",
+            "src":"img/main/4.png",
+            "descript":"지역 축제를 추천받고 지도를 보며 여행 계획을 세울 수 있는 웹 사이트",
+            "front":["TypeScript, Next.js, HTML5, CSS3(styled-component)"],
+            "back":["node.js","AWS(EC2)"],
+            "takeaway":"◾ Typescript 적용한 Next.js 프로젝트 (AWS EC2 배포)\n◾ zustand 라이브러리로 전역 상태 관리\n◾ kakao 지도 api 및 지역축제(공공데이터) 추천 api 사용\n◾ 로그인 서비스 제공 예정",
+            "href":"https://github.com/kylee31/project1",
+            "webhref":"http://13.124.240.253:3000"
+        },{
             "title":"🎬 영화일기(Movie Diary)",
             "src":"img/main/1.png",
             "descript":"그림일기 형식의 영화 감상문",
@@ -8,7 +17,7 @@
             "back":["node.js"],
             "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ localstorage의 한정된 용량을 고려해 Canvas API로 이미지 크기제한\n◾ Context API와 useReducer로 전역 상태 관리",
             "href":"https://github.com/kylee31/movie_diary",
-            "webhref":"https://kylee31.github.io/movie_diary/"
+            "webhref":"https://kylee31.github.io/movie_diary"
         },
         {
             "title":"📚 북마크(Book Mark)",
@@ -18,7 +27,7 @@
             "back":["node.js, Firestore(firebase)"],
             "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 사이트를 이용하도록 구현",
             "href":"https://github.com/kylee31/book_mark",
-            "webhref":"https://book-mark-db594.web.app/"
+            "webhref":"https://book-mark-db594.web.app"
         },
         {
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
@@ -26,68 +35,19 @@
             "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
             "front":["TypeScript, React, HTML5, CSS3(styled-component)"],
             "back":["node.js"],
-            "takeaway":"◾ TypeScript를 사용하여 만든 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
+            "takeaway":"◾ TypeScript 적용한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
             "href":"https://github.com/kylee31/web-portfolio"
         }
     ],
     "subprojects":[
         {
-            "src":"img/sub/01.png",
-            "title":"📦 Storage",
-            "date":"2022년 6월~7월",
-            "webhref":"https://kylee31.github.io/storage/",
-            "href":"https://github.com/kylee31/storage",
-            "languages":"JavaScript",
-            "color":"#ecd300",
-            "descript":"정보처리기사 자격증 취득 후 프론트엔드 분야에 대한 학습 시작. JS, HTML, CSS를 사용하여 MPA 형식으로 프로젝트 및 과제 등을 정리하는 웹 페이지를 만들며 기초 연습."
-        },
-        {
-            "src":"img/sub/02.png",
-            "title":"📝 JavaScript 연습",
-            "date":"2022년 7월~10월",
-            "href":"https://github.com/kylee31/javascript_example",
-            "languages":"JavaScript",
-            "color":"#ecd300",
-            "descript":"24 JavaScript Projects You Can Build to Perfect Your Coding Skills - by Mikke를 참고하여 자바스크립트 토이 프로젝트 진행. 원본 코드 참고없이 프로젝트를 구현했으며, 이후 예제 코드를 보며 직접 구현한 코드와 다른 부분을 공부하며 함수와 메소드 등 학습."
-        },
-        {
-            "src":"img/sub/04.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩1, movie app",
-            "date":"2022년 7월",
-            "href":"https://github.com/kylee31/movie_app",
-            "languages":"React",
+            "src":"img/group/01.png",
+            "title":"🙂 더로벨 안과 프로젝트",
+            "date":"2023년 7월~11월",
+            "languages":"Next.js",
             "color":"#009bec",
-            "descript":"노마드 코드(youtube) 강의를 보며 api 호출에 대한 클론 코딩 하며 공부. 영화 api를 fetch하여 json 데이터를 불러오고 이를 화면에 나타내는 웹 페이지 완성."
-        },
-        {
-            "src":"img/sub/03.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩2, todo list",
-            "date":"2022년 8월",
-            "href":"https://github.com/kylee31/todo_list",
-            "languages":"React",
-            "color":"#009bec",
-            "descript":"벨로퍼트 todo list를 클론 코딩하며 React의 기본적인 문법에 대해 학습. component, props, hook 등을 사용하며 익혔고, todo list 완성. 이후 useReducer와 Context API 사용하여 전역상태관리 연습."
-        },
-        {
-            "src":"img/sub/05.png",
-            "title":"👨🏻‍🤝‍👨🏻 클론 코딩3, vocabulary note",
-            "date":"2022년 9월",
-            "href":"https://github.com/kylee31/vocabulary_note",
-            "languages":"React",
-            "color":"#009bec",
-            "descript":"코딩앙마(yotube) 강의를 보고 클론 코딩을 하며 json-server 사용 및 React 기초적인 문법에 대한 학습."
-        },
-        {
-            "src":"img/sub/07.png",
-            "title":"🔑 로그인 구현",
-            "date":"2023년 3월",
-            "href":"https://github.com/kylee31/wanted-pre-onboarding-3-FE-quest",
-            "languages":"React",
-            "color":"#009bec",
-            "descript":"원티드 프리온보딩 챌린지에서 강의를 들으며 공부한 클론 실습 코딩. 학습이 부족하다고 느꼈던 로그인 및 보안 분야에 대한 기초 공부."
-        },
-        {
-            "src":"img/1.png",
+            "descript":"프론트엔드 개발자로 참여. Next.js, styled-component로 작업하였으며 프로그램 초기 디자인 작성 및 프로젝트 레이아웃, 컴포넌트(eye, 로그인 페이지 등) 구현."
+        }, {
             "title":"🏃‍♂️ 게임 프로그래밍",
             "date":"2019년 3월~6월",
             "href":"https://github.com/kylee31/game_project",
@@ -115,12 +75,16 @@
             "name":"JavaScript ES6"
         },
         {
-            "src":"img/front/f6.png",
-            "name":"TypeScript"
-        },
-        {
             "src":"img/front/f5.png",
             "name":"React"
+        },
+        {
+            "src":"img/front/f7.png",
+            "name":"Next.js"
+        },
+        {
+            "src":"img/front/f6.png",
+            "name":"TypeScript"
         }
     ],
     "back":[
