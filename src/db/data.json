@@ -4,16 +4,16 @@
             "title":"🛫 여행 계획 (Travel Plan)",
             "src":"img/main/4.png",
             "descript":"지역 축제를 추천받고 지도를 보며 여행 계획을 세울 수 있는 웹 사이트",
-            "front":["TypeScript, Next.js, HTML5, CSS3(styled-component)"],
-            "back":["node.js","AWS(EC2)"],
-            "takeaway":"◾ Typescript 적용한 Next.js 프로젝트 (AWS EC2 배포)\n◾ zustand 라이브러리로 전역 상태 관리\n◾ kakao 지도 api 및 지역축제(공공데이터) 추천 api 사용\n◾ 로그인 서비스 제공 예정",
-            "href":"https://github.com/kylee31/project1",
+            "front":[" Next.js, TypeScript, HTML5, CSS3(styled-component)"],
+            "back":["node.js, AWS(EC2)"],
+            "takeaway":"◾ Typescript 적용한 Next.js 프로젝트 (AWS EC2 배포)\n◾ Zustand 라이브러리로 전역 상태 관리\n◾ kakao 지도 API 및 지역축제(공공데이터) 추천 API 연동\n◾ 로그인 서비스 제공 예정\n➕ 업데이트(로그인 기능 추가, 날씨 제공 기능 추가 등) 예정",
+            "href":"https://github.com/kylee31/travel_plan",
             "webhref":"http://13.124.240.253:3000"
         },{
             "title":"🎬 영화일기(Movie Diary)",
             "src":"img/main/1.png",
             "descript":"그림일기 형식의 영화 감상문",
-            "front":["TypeScript, React, HTML5, CSS3(styled-component, SCSS)"],
+            "front":["React, TypeScript, HTML5, CSS3(styled-component, SCSS)"],
             "back":["node.js"],
             "takeaway":"◾ CRUD를 모두 구현한 React 프로젝트 (gh-pages 배포)\n◾ SPA 형식으로 작성했으며 localstorage에 데이터 저장\n◾ localstorage의 한정된 용량을 고려해 Canvas API로 이미지 크기제한\n◾ Context API와 useReducer로 전역 상태 관리",
             "href":"https://github.com/kylee31/movie_diary",
@@ -23,9 +23,9 @@
             "title":"📚 북마크(Book Mark)",
             "src":"img/main/2.png",
             "descript":"카테고리 생성, 링크 및 메모를 저장할 수 있는 웹 사이트",
-            "front":["JavaScript, React, HTML5, CSS3(styled-component)"],
+            "front":["React, HTML5, CSS3(styled-component)"],
             "back":["node.js, Firestore(firebase)"],
-            "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 사이트를 이용하도록 구현",
+            "takeaway":"◾ CRD를 구현한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 작성했으며 Cloud Firestore에 데이터 저장\n◾ API 호출하며 firebase의 소셜 로그인 기능 사용하여 로그인 후 사이트를 이용하도록 구현\n🔧 UX 이슈(데이터 로딩으로 인한 깜빡임) 수정 중",
             "href":"https://github.com/kylee31/book_mark",
             "webhref":"https://book-mark-db594.web.app"
         },
@@ -33,9 +33,9 @@
             "title":"👩‍💻 웹 포트폴리오(Web Portfolio)",
             "src":"img/main/3.png",
             "descript":"프로젝트 정리 및 기술 나열 웹 페이지",
-            "front":["TypeScript, React, HTML5, CSS3(styled-component)"],
+            "front":["React, TypeScript, HTML5, CSS3(styled-component)"],
             "back":["node.js"],
-            "takeaway":"◾ TypeScript 적용한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 반응형 웹 페이지 구현\n◾ main, sub, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
+            "takeaway":"◾ TypeScript 적용한 React 프로젝트 (firebase 배포)\n◾ SPA 형식으로 반응형 웹 페이지 구현\n◾ main, group, profile 카테고리 작성\n◾ 레이아웃 컴포넌트를 만들어 카테고리(페이지) 정리",
             "href":"https://github.com/kylee31/web-portfolio"
         }
     ],
@@ -46,7 +46,7 @@
             "date":"2023년 7월~11월",
             "languages":"Next.js",
             "color":"#009bec",
-            "descript":"프론트엔드 개발자로 참여. Next.js, styled-component로 작업하였으며 프로그램 초기 디자인 작성 및 프로젝트 레이아웃, 컴포넌트(eye, 로그인 페이지 등) 구현."
+            "descript":"프론트엔드 개발자로 참여. Next.js, Typescript로 작업하였으며 Figma를 이용하여 프로그램 초기 디자인 작성 및 프로젝트 레이아웃, 컴포넌트(eye, 로그인 페이지 등) 구현. branch 관리 및 commit 메시지 규칙 설정 등 GitHub로 작업하며 협업에 대한 경험과 지식을 얻을 수 있었던 프로젝트."
         }, {
             "title":"🏃‍♂️ 게임 프로그래밍",
             "date":"2019년 3월~6월",
