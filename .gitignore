@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 #firebase deploy SDK
-fbase.js
+src/fbase.js
