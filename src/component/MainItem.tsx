@@ -34,12 +34,12 @@ function MainItem({ item }: MainInfo) {
         {item.webhref && (
           <A style={{ color: "#b3e9af" }} href={item.webhref} target="_blank">
             <Icon alt="" src="img/logo/website.png" loading="lazy" />
-            Web Site 보기{" "}
+            Web Site
           </A>
         )}
         <A href={item.href} target="_blank">
           <Icon alt="" src="img/logo/github2.png" />
-          GitHub code 보기
+          GitHub code & README
         </A>
       </WebLink>
     </Item>
