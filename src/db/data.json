@@ -4,11 +4,19 @@
             "title":"🛫 여행 계획 (Travel Plan)",
             "src":"img/main/4.png",
             "descript":"지역 축제를 추천받고 지도를 보며 여행 계획을 세울 수 있는 웹 사이트",
+<<<<<<< Updated upstream
             "front":["TypeScript, Next.js, HTML5, CSS3(styled-component)"],
             "back":["node.js","AWS(EC2)"],
             "takeaway":"◾ Typescript 적용한 Next.js 프로젝트 (AWS EC2 배포)\n◾ zustand 라이브러리로 전역 상태 관리\n◾ kakao 지도 api 및 지역축제(공공데이터) 추천 api 사용\n◾ 로그인 서비스 제공 예정",
             "href":"https://github.com/kylee31/project1",
             "webhref":"http://13.124.240.253:3000"
+=======
+            "front":[" Next.js, TypeScript, HTML5, CSS3(styled-component)"],
+            "back":["node.js, AWS(EC2)"],
+            "takeaway":"◾ Typescript 적용한 Next.js 프로젝트 (AWS EC2 배포)\n◾ Zustand 라이브러리로 전역 상태 관리\n◾ kakao 지도 API 및 지역축제(공공데이터) 추천 API 연동\n◾ 로그인 서비스 제공 예정\n➕ 업데이트(로그인 기능 추가, 날씨 제공 기능 추가 등) 예정",
+            "href":"https://github.com/kylee31/travel_plan",
+            "webhref":"http://travel-plan.kro.kr"
+>>>>>>> Stashed changes
         },{
             "title":"🎬 영화일기(Movie Diary)",
             "src":"img/main/1.png",
