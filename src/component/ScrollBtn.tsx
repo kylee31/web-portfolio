@@ -2,45 +2,43 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 function ScrollBtn() {
+  const [showBtn, setShowBtn] = useState(false);
 
-    const [showBtn, setShowBtn] = useState(false);
+  function scrollTop() {
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
-    function scrollTop(){
-        window.scroll({
-            top: 0,
-            behavior: 'smooth'
-        })
-    }
+  function handleShowBtn() {
+    window.scrollY > 500 ? setShowBtn(true) : setShowBtn(false);
+  }
 
-    useEffect(() => {
-        function handleShowBtn(){
-            (window.scrollY > 500) ? setShowBtn(true) : setShowBtn(false)
-        }
-        window.addEventListener("scroll", handleShowBtn);
-        return () => window.removeEventListener("scroll", ()=>{console.log("dd"); return false})
-    }, [])
+  useEffect(() => {
+    window.addEventListener("scroll", handleShowBtn);
+    return () => window.removeEventListener("scroll", handleShowBtn);
+  }, []);
 
-    return (
-        showBtn?<Btn onClick={scrollTop}>▲</Btn>:<></>
-    );
+  return showBtn ? <Btn onClick={scrollTop}>▲</Btn> : <></>;
 }
 
 export default ScrollBtn;
 
 const Btn = styled.div`
-    width:50px;
-    height:50px;
-    background-color:#199831;
-    border-radius:50%;
-    bottom:40px;
-    right:20px;
-    position:fixed;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:900;
-    font-size:1.5rem;
-    color:white;
-    cursor:pointer;
-    opacity:0.8;
+  width: 50px;
+  height: 50px;
+  background-color: #199831;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
 `;
