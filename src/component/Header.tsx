@@ -53,14 +53,14 @@ function Header() {
               <Img alt="" src="img/logo/github.png" />
               GitHub
             </A>
-            {/* <A
+            <A
               target="_blank"
               href="https://www.youtube.com/@ky5211/featured"
               title="project 시연 영상 보러가기"
             >
               <Img alt="" src="img/logo/youtube.png" />
               Youtube
-            </A> */}
+            </A>
           </Div>
         </Info>
       </NameTag>
